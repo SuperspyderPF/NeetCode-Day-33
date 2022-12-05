@@ -1,0 +1,1 @@
+middleNode=h=>{f=h,s=h;while(f&&f.next){s=s.next;f=f.next.next;}return s}

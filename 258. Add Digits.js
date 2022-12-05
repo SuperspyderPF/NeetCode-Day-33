@@ -1,0 +1,1 @@
+addDigits = (n) => n < 10 ? n : addDigits([...(n + '')].reduce((a, c) => a + +c, 0));
